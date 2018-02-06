@@ -208,7 +208,10 @@ res/sound/ringtone.wav
 lib{,64}/hw/lights.mt6735.so
 lib{,64}/hw/memtrack.mt6735.so
 
-# MTKLogger
+# MTK Logger Configuration
+etc/mtklog-config.prop
+
+# MTKLogger (need not to include in user build)
 -app/MTKLogger/MTKLogger.apk
 -bin/emdlogger1
 -bin/mdlogger
